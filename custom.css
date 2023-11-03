@@ -1,0 +1,65 @@
+* { font-family: "D2Coding"; }
+
+.rendered_html pre,
+.rendered_html pre span {
+    border: 0;
+    color: red;
+    background: #FEEEED;
+    font-size: 100%;
+}
+
+blockquote {
+    padding: 9px;
+    margin: 14px;
+    font-size: inherit;
+    border-left: 5px solid #dfb5b4;
+    background: #FEEEED;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+} 
+
+.rendered_html blockquote code {  
+    color: red;
+    background: #FEEEED;
+    font-weight: bold;
+}
+
+.rendered_html pre code {
+    padding: 9px;
+    font-size: inherit;
+    border-left: 5px solid #dfb5b4;
+    background: #FEEEED;
+    display: block;
+}
+
+.rendered_html h1 code,
+.rendered_html h2 code,
+.rendered_html h3 code,
+.rendered_html h4 code,
+.rendered_html h5 code,
+.rendered_html h6 code,
+.rendered_html li > code,
+.rendered_html p code {  
+    color: red;
+    background: none;
+    font-weight: bold;
+}
+
+
+.rendered_html b {
+    color: blue;
+    font-weight: bold;
+}
+
+.rendered_html table th {
+    color: white;
+    background: #f68e2c;
+}
+
+.output  pre, .prompt.input_prompt, code {
+ font-family: "D2Coding"; 
+}
+
