@@ -1,0 +1,23 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Chatbot</title>
+</head>
+<body>
+    <h1>ChatGPT Chatbot</h1>
+    <form action="/ask" method="post">
+        <label for="user_input">You:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Ask</button>
+    </form>
+    {% if user_input %}
+        <p>You: {{ user_input }}</p>
+        <p>ChatGPT: {{ bot_reply }}</p>
+    {% endif %}
+</body>
+</html>
